@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <link rel="stylesheet" href="CSS Basketball.css">
+    <title>ALLEY WHOOP</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Acceuil</a></li>
+                <li><a href="#about">Score</a></li>
+                <li><a href="#produits">Hall Of Fame</a></li>
+                <li><a href="#contactez-nous">Formulaire</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="text">
+        <h1>ALLEY WHOOP <span class="auto-typing"></span></h1>
+        <p>“I've failed over and over and over again in my life. And that is why I succeed."
+
+            - Michael Jordan.<br>
+        Un projet de Design en HTML et CSS créer par Firas Assali, Amine Beskri, Anas Sbaa, Salah Ghedira et Ayoub Mejri<br>
+        3 points !</p>
+    </section>
+
+    <div class="overlay"></div>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        let typed = new Typed('.auto-typing', {
+            strings: ['NEWS', 'SCORE', ],
+            typeSpeed:100,
+            backspeed: 100,
+            loop:true,
+            fadeOut:true,
+            fadeOutClass:'typed-fade-out',
+            fadeOutDelay:100,
+            shuffle: true
+        });
+    </script>
+      <div style="background-image: url(basket.jpg); background-repeat:repeat; background-size: x;">
+        <section id="about" class="about-section">
+            <div class="about-content">
+              <h1 style="color: rgb(107, 34, 136); font-family: 'Segoe UI';">Bienvenue sur ALLEY WHOOP</h1><br>
+              <h1 class="newss">
+                <br>
+                <b class="title" style="border-radius: 100px; padding-left: 25%; padding-right: 25%; font-family: 'Segoe UI';">Dernier Match</b> <br><br>
+
+                <a href="https://www.matchendirect.fr/basket/match-632921-boston-celtics-indiana-pacers"><img src="news.png" height="300" width="500" alt="Match"></a> <br><br>
+
+                <p style="text-align: right; font-family: 'Segoe UI'; font-size: small ; padding-right: 15%; background-color: #00e5ff; margin-left: 25%; margin-right: 25%; border-radius: 100px;">Pour plus d'informations sur le match, appuyez sur l'image</p>
+
+
+              </h1>
+
+              <ul class="about-stats">
+
+              </ul>
+            </div>
+          </section> <br><br>
+    
+
+  
+     <br>
+        <section id="produits" class="products"><br><br>
+        <h1 style="font-family: 'Segoe UI';color: rgb(232, 98, 2); background-color: rgb(255, 255, 255); border-radius: 100px; padding-top: 10px; margin-left: 5%; margin-right: 50%; font-size: x-large; border-radius: 25%;">Meilleur joueur de l'histoire du Basketball <3  </h1> <br><br><br>
+           
+        <div class="product sky-blue">
+        <div class="inside1">
+        <h2>Michael Jordan:</h2>
+        <p>Date de naissance: 17 février 1963</p>
+        <p>Taille: 1,98 m</p>
+        <p>Poste: Arrière / Ailier</p>
+        <p>Équipes: Chicago Bulls, Washington Wizards</p>
+        </div>
+        <a href="https://fr.wikipedia.org/wiki/Michael_Jordan" class="buy">Pour Plus d'info sur le joueur cliquer içi</a>
+    
+    </div>
+    <div class="product lime-green">
+        <div class="inside1">
+        <h2>LeBron James:</h2>
+        <p>Date de naissance: 30 décembre 1984</p>
+        <p>Taille: 2,06 m</p>
+        <p>Poste: Ailier </p>
+        <p>Équipes: Cleveland Cavaliers, Miami Heat, Los Angeles Lakers</p>
+        </div>
+        <a href="https://fr.wikipedia.org/wiki/LeBron_James" class="buy">Pour Plus d'info sur le joueur cliquer içi</a>
+    </div>
+    <div class="product candy-pink">
+        <div class="inside1">
+            <h2>Kareem Abdul-Jabbar:</h2>
+        <p>Date de naissance: 16 avril 1947</p>
+        <p>Taille: 2,18 m</p>
+        <p>Poste: Pivot</p>
+        <p>Équipes: Milwaukee Bucks, Los Angeles Lakers</p>
+        </div>
+        
+        <a href="https://fr.wikipedia.org/wiki/Kareem_Abdul-Jabbar" class="buy">Pour Plus d'info sur le joueur cliquer içi</a>
+    </div>
+    <div class="product pale-yellow">
+        <div class="inside1">
+            <h2>Magic Johnson:</h2>
+        <p>Date de naissance: 14 août 1959</p>
+        <p>Taille: 2,06 m</p>
+        <p>Poste: Meneur</p>
+        <p>Équipes: Los Angeles Lakers</p>
+        </div>
+        
+        <a href="https://fr.wikipedia.org/wiki/Magic_Johnson" class="buy">Pour Plus d'info sur le joueur cliquer içi</a>
+    </div>
+</section></div>
+
+<section id="contactez-nous" class="about-section">
+    <body>
+
+        <div class="top">
+    
+        <h1><a href="#"><img src="AW.png" height="150" width="200" class="image"/></a></h1>
+    
+    
+    </div>
+        <!-- debut du formulaire -->
+        <form action="formulaire.html">
+    
+            <!-- head -->
+            <div class="aa" style="background-color: beige;">
+    
+                <div class="bo">
+    
+                <h1 title="formualire pour TUV Rheinland" style="text-align: center; font-size: 50px; font-family: 'Segoe UI' Geneva, Verdana; ">Alley Whoop News
+                    </br>Inscrivez-vous à notre news letter pour rester au courant des dernier but de votre Basketteur préferer !
+                
+                </h1>
+                <!-- head-->
+    
+                    
+    
+                </div>
+    
+                <div class="kl">
+                   <!-- Nom -->
+                   <br><br><br>
+                   <label id="Nom"  > Nom :</label>
+                   <input type="text" placeholder="Entrez votre Nom !" id="Nom"/>
+                   <!-- -->
+                   <!-- Prénom -->
+                   <br><br><br>
+                   <label id="prénom" title="entrez votre Prénom !" > Prénom :</label>
+                   <input type="text" placeholder="Entrez Votre Prénom" id="Prénom"/>
+                   <!-- -->
+                   <!-- Email -->
+                   <br><br><br>
+                   <label id="email" title="entrez votre email !" > Email :</label>
+                   <input type="email" placeholder="Entrez Votre Email ( sans oubliez '@')" id="Email"/>
+                   <!-- -->
+    
+                   <br><br><br>
+                   <!-- Commentaire -->
+                   <label id="Commentaire" title="entrez votre Commentaire !">Commentaire : </label>
+                   <textarea id="Commentaire" placeholder="entrez votre niveau en français, English et d'autres langues et des informations sur votre personne (en forme de paragraphe ! )" cols="50" rows="5"></textarea>
+                    <!-- -->
+                    <!-- pays -->
+                    <br><br><br>
+                    <label id="pays" title="entrez votre pays">pays : </label>
+                     <select name="pays">
+                        <optgroup label="Europe"> 
+                            <option>Germany</option>
+                            <option>France</option>
+                            <option>Italy</option>
+                            <option>Ukraine</option>
+                            <option>Sweden</option>
+                        </optgroup>
+                        <optgroup label="Africa"> 
+                            <option>Algeria</option>
+                            <option>Tunisia</option>
+                            <option>Morroco</option>
+                            <option>Egypt</option>
+                            <option>Mauritania</option>
+                        </optgroup>
+                     </select>
+                    </div><br><br><br>
+    
+                    <!-- SEXE -->
+                     <div class="ze">
+                       <label title="saississez votre sexe ! " id="sexe">Sexe :</label><br>
+                       <label title="Homme" id="Homme">Homme</label><input placeholder="appuyez sur moi ! Si vous etes un HOMME" type="checkbox" title="Homme">
+                       <label title="Femme" id="Femme">Femme</label>
+                       <br>
+    
+                       <input type="checkbox" title="Femme">
+    
+                    </div><br><br>
+                    <!-- date de naisssance-->
+                     <label title="entrez votre Date de naissance" id="date de naissance">Date de naissance</label>
+                     <input type="date" title="date de naissance"/>
+    
+                     <br><br><br>
+    
+                     <!-- FILE  -->
+                     <label style="border-bottom: 3px solid black;" title="insérez votre C.V ......" id="file">insérez votr cv</label><br><br>
+                     <input style="border-bottom: 3px solid black;" type="file" title="insérez votre cv" id="file"><br><br><br>
+               
+            <!-- submit and reset-->
+             <input type="submit" title="envoyer le formualire" >
+             <input type="reset" title="reset le formulaire"/>
+             <!-- submit and reset -->
+             <br><br><br>
+             
+    <p class="message"> <br> <b> si vous rencontrez une erreur ou un problème quelconque, n'hésitez pas à nous contacter à l'adresse suivante :<a href="mailto:batgamer2020@gmail.com">batgamer2020@gmail.com</a> . Nous sommes à votre disposition pour vous aider et résoudre rapidement toute difficulté que vous pourriez rencontrer. Votre satisfaction est notre priorité, et nous apprécions vos retours qui nous permettent d'améliorer continuellement nos services.</b>  </p>
+    <h1 style="text-align: center; font: bold;">Good Luck et profitez du Basket !</h1>
+    <br><br><br>
+            </div>
+    
+    
+    <!-- <script>
+    
+    alert("bonjour !")
+    alert("Nous vous informons que le formulaire que vous avez devant vous est un formulaire de candidature pour un emploi chez TÜV Rheinland. Nous sommes ravis de votre intérêt pour rejoindre notre équipe et nous vous encourageons à remplir le formulaire avec soin et à fournir toutes les informations demandées pour que nous puissions mieux évaluer votre candidature.")
+    alert("N'hésitez pas à nous contacter si vous avez des questions ou besoin d'assistance lors de la soumission de votre candidature.")
+    alerte("Cordialement,")
+    alert("[L'équipe de recrutement de TÜV Rheinland]")
+    
+    </script> -->
+    
+    
+    </form>
+    <!-- fin du formulaire -->
+    <footer class="footer">                 
+        <p>Copyright © 2024 Alley Whoop. Tous droits réservés. 
+            <br> Fait par Firas Assali - Amine Beskri - Anas Sbaa - Maitre Salah Ghedira - Ayoub Mejri </p>
+    </footer>
+
+</body>
+</html>

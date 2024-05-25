@@ -1,0 +1,373 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI';
+    font-size: 14px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    background: url(basket.jpg) center center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: -100;
+}
+
+
+.title {
+
+
+    background-color: #f7f7b7;
+}
+.newss {
+
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+  
+    border-radius: 25%;
+    font-size: 100px;
+    text-align: center;
+}
+
+header{
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    padding: 30px 0 10px;
+}
+
+nav .logo {
+    width: 200px;
+    margin: -20%;
+}
+
+nav ul {
+    flex:1;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: color .3s;
+}
+
+nav ul li a:hover{
+    color:#2eb0f0;
+}
+
+.text {
+    padding: 70px 0;
+    color:#fff;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text h1 {
+    font-size: 75px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.text p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+}
+
+.text a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.25rem;
+    border: 1px solid #2eb0f0;
+    color: #2eb0f0;
+    padding: 10px 20px;
+    margin-right: 30px;
+}
+
+.text a.ESP {
+    color: #121212;
+    background-color: #00d9ff;
+    font-weight: 600;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #fff; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product h2 {
+    font-size: 20px;
+    margin-bottom: 1px;
+}
+
+.sky-blue { 
+    background-image: url(jordan.jpg); 
+    border: 2px solid skyblue;
+    background-color: skyblue;
+
+}
+.inside1 {
+
+    border: 2px solid skyblue;
+    background-color: skyblue;
+}
+.lime-green { 
+    background-image: url(lebron.jpg);
+    background-size: contain;
+
+}
+
+
+.candy-pink { 
+    background-image: url(kerim.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.pale-yellow { 
+    background-image: url(magic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.product p {
+    margin-bottom: 5px;
+}
+
+.product .buy {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1rem;
+    border: 1px solid #2eb0f0;
+    color: #2eb0f0;
+    padding: 5px 15px;
+    margin-top: 10px;
+    background-color: #fff; 
+}
+
+.product .buy:hover {
+    color: #fff;
+    background-color: #2eb0f0;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    background-image: url(basket3.jpg);
+    background-repeat: no-repeat;
+    background-size: 5000px;
+    padding: 20px;
+    border-radius: 100px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.security-directives {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 30px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+  }
+  
+  .security-directives h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .security-directives p {
+    text-align: justify;
+    font-size:larger;
+    padding: 0;
+  }
+  
+  .about-section {
+    text-align: center;
+    padding: 20px;
+    background-color: khaki;
+    background-image: url(Subordonnée.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 52px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid gray;
+    font-family: 'Segoe UI';
+
+  }
+  
+  .about-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .about-content h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .about-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .about-stats {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about-stats li {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .about-stats strong {
+    color: #007bff; 
+  }
+  .aa {
+
+    border:  5px solid black;
+    text-align: center;
+    width: 100;
+    border-radius: 10%;
+    height: 100;
+    margin: 12%;
+
+}
+ label {
+    margin-top: 15% ;
+    padding-top: 15%;
+    font-size: x-large;
+    font-family: fantasy;
+}
+input, textarea {
+
+    font-family: 'Segoe UI';
+  padding: 1%;
+}
+.bo {
+
+   margin-bottom: 10%; 
+   
+}
+.kl {
+    margin-top: 2%;
+    border-top: 3px solid black;
+
+}
+body {
+
+    background-image: url(tu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ze {
+
+     margin-left: 40%;
+     margin-right: 40%;
+     border: 3px solid darkblue;
+}
+.top {
+
+    background-color: rgb(11, 148, 190);
+    border: 5px solid sandybrown;
+    border-radius: 10%;
+}
+.image{
+
+    border: 3px solid  sandybrown;
+    margin-left: 40%;
+}
+.message {
+
+    border-top: 3px solid black;
+}
+.footer p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+@keyframes scaleIn {
+    from {
+        transform: scale(0);
+    }
+
+
+    to {
+        transform: scale(1);
+    }
+}
+
+
+@keyframes slideInUp {
+    from {
+        transform: translateY(100px);
+    }
+
+
+    to {
+        transform: translateY(0);
+    }
+}
